@@ -1,0 +1,123 @@
+
+2023-06-06 00:49:26,965 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:522]
+2023-06-06 00:52:26,106 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:522]
+2023-06-06 00:52:58,921 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:522]
+2023-06-06 00:56:13,728 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:522]
+2023-06-06 01:21:04,194 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:522]
+2023-06-06 01:23:42,522 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:522]
+2023-06-06 01:24:30,693 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:522]
+2023-06-06 01:32:11,590 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:522]
+2023-06-06 01:42:04,194 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:522]
+2023-06-06 01:44:10,182 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:523]
+2023-06-06 01:45:10,041 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:523]
+2023-06-06 19:03:31,192 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:563]
+2023-06-06 19:03:41,975 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:563]
+2023-06-06 19:04:05,141 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:563]
+2023-06-06 19:08:00,579 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:569]
+2023-06-06 19:08:10,956 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:569]
+2023-06-07 00:11:57,252 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:545]
+2023-06-07 00:12:55,506 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:545]
+2023-06-07 00:43:07,351 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:556]
+2023-06-07 00:43:16,687 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:556]
+2023-06-07 00:43:38,825 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:556]
+2023-06-07 01:02:27,820 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:572]
+2023-06-07 01:02:32,227 INFO: errors [in C:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FSND\projects\01_fyyur\starter_code\app.py:572]
+2023-07-19 17:39:10,170 INFO: errors [in c:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FyyurZIP\app.py:535]
+2023-07-19 17:39:19,779 ERROR: Exception on /venues [GET] [in C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FyyurZIP\app.py", line 117, in venues
+    venues = Venue.query.all()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\model.py", line 30, in __get__
+    return cls.query_class(
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\query.py", line 180, in __init__
+    self._set_entities(entities)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\query.py", line 187, in _set_entities
+    self._raw_columns = [
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\query.py", line 188, in <listcomp>
+    coercions.expect(
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\sql\coercions.py", line 186, in expect
+    insp._post_inspect
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 1184, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\mapper.py", line 2199, in _post_inspect
+    self._check_configure()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\mapper.py", line 1941, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\mapper.py", line 3527, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\mapper.py", line 3566, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\mapper.py", line 1958, in _post_configure_properties
+    prop.init()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\interfaces.py", line 231, in init
+    self.do_init()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\relationships.py", line 2157, in do_init
+    self._generate_backref()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\relationships.py", line 2437, in _generate_backref
+    raise sa_exc.ArgumentError(
+sqlalchemy.exc.ArgumentError: Error creating backref 'venue' on relationship 'Venue.shows': property of that name exists on mapper 'mapped class Show->shows'
+2023-07-19 17:39:24,790 ERROR: Exception on /artists [GET] [in C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FyyurZIP\app.py", line 265, in artists
+    artists = Artist.query.all()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\model.py", line 30, in __get__
+    return cls.query_class(
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\query.py", line 180, in __init__
+    self._set_entities(entities)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\query.py", line 187, in _set_entities
+    self._raw_columns = [
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\query.py", line 188, in <listcomp>
+    coercions.expect(
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\sql\coercions.py", line 186, in expect
+    insp._post_inspect
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 1184, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\mapper.py", line 2199, in _post_inspect
+    self._check_configure()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\mapper.py", line 1941, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\mapper.py", line 3527, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\mapper.py", line 3562, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'mapped class Venue->venues'. Original exception was: Error creating backref 'venue' on relationship 'Venue.shows': property of that name exists on mapper 'mapped class Show->shows'
+2023-07-19 17:39:43,178 ERROR: Exception on /venues/create [POST] [in C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1741]
+Traceback (most recent call last):
+  File "c:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FyyurZIP\app.py", line 223, in create_venue_submission
+    website=form.website.data, seeking_talent=form.seeking_talent.data)
+AttributeError: 'VenueForm' object has no attribute 'website'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Raquel\Documents\Udacity\Full_stack\Final_project\FyyurZIP\app.py", line 234, in create_venue_submission
+    flash('An error occurred. Venue ' + request.form['name'] + ' could not be listed.')
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 361, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Raquel\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 98, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.

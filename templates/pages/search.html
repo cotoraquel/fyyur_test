@@ -1,0 +1,48 @@
+{% extends 'layouts/main.html' %}
+
+{% block title %}Fyyur | Search Results{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Search Results</h1>
+    <div class="search-results">
+        {% if results.count.venues > 0 %}
+            <h2>Venues</h2>
+            <ul class="items">
+                {% for venue in results.data.venues %}
+                    <li>
+                        <a href="/venues/{{ venue.id }}">
+                            <i class="fas fa-building"></i>
+                            <div class="item">
+                                <h5>{{ venue.name }}</h5>
+                                <p>{{ venue.num_upcoming_shows }} upcoming shows</p>
+                            </div>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        {% if results.count.artists > 0 %}
+            <h2>Artists</h2>
+            <ul class="items">
+                {% for artist in results.data.artists %}
+                    <li>
+                        <a href="/artists/{{ artist.id }}">
+                            <i class="fas fa-users"></i>
+                            <div class="item">
+                                <h5>{{ artist.name }}</h5>
+                                <p>{{ artist.num_upcoming_shows }} upcoming shows</p>
+                            </div>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        {% if results.count.venues == 0 and results.count.artists == 0 %}
+            <p>No results found for '{{ search_term }}'.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
